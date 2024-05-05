@@ -2,8 +2,8 @@
   hosts: localhost
   vars: #variable declaration
     course: "Ansible"
-    Trainer: "sivakumar"
-    Duration: "120hrs"
+    Trainer: "siva"
+    Duration: "12hrs"
   tasks:
   - name: print information
     ansible.builtin.debug:
