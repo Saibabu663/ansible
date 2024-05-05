@@ -1,4 +1,4 @@
-- name: data type
+- name: data types
   hosts: localhost
   vars:
     course: DevOps with AWS #string
