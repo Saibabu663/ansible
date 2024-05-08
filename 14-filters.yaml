@@ -64,12 +64,10 @@
     - { 'key': 'Trainer', 'value': 'siva'}
     - { 'key': 'Duration', 'value': '120hr'}
   tasks:
-  - name: before convert
+   - name: before convert
     ansible.builtin.debug:
-     msg: "Before convert: {{my_list }}"
- - name: after convert
+      msg: "Before convert: {{ my_list }}"
+  - name: after convert
     ansible.builtin.debug:
-      msg: "After convet: {{ my_list | items2dict }}"
-
-       
+      msg: "After convert: {{ my_list | items2dict }}"
 
