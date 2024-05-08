@@ -1,4 +1,4 @@
- - name: install package
+ - name: install packages
     hosts: web
     become: tes
     tasks:
