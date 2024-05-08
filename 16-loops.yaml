@@ -1,0 +1,12 @@
+ - name: install package
+    hosts: web
+    become: tes
+    tasks:
+    - name: install packages
+      ansible.builtin.dnf:
+        name: "{{ item }}"
+        state: latest
+      loops:
+      - mysql
+      - nginx
+      - postfix
