@@ -65,7 +65,7 @@
     - { 'key': 'Duration', 'value': '120hr'}
   tasks:
    - name: before convert
-    ansible.builtin.debug:
+     ansible.builtin.debug:
       msg: "Before convert: {{ my_list }}"
   - name: after convert
     ansible.builtin.debug:
